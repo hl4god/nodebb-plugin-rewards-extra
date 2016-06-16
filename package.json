@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-rewards-extra",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NodeBB rewards extra Plugin,extend the nodebb-rewards-essentials plugin",
   "main": "library.js",
   "scripts": {
