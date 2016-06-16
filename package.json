@@ -1,0 +1,15 @@
+{
+  "name": "nodebb-plugin-rewards-extra",
+  "version": "0.0.1",
+  "description": "NodeBB rewards extra Plugin,extend the nodebb-rewards-essentials plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Holly <hl4god@gmail.com>",
+  "license": "BSD-2-Clause",
+  "nbbm": {
+    "compatibility":"^1.0.*"
+ }
+}

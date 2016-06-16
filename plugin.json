@@ -1,0 +1,21 @@
+{
+	"id": "nodebb-plugin-rewards-extra",
+	"name": "Extra Rewards Starter Pack",
+	"description": "NodeBB rewards extra Plugin,extend the nodebb-rewards-essentials plugin",
+	"url": "https://github.com/hl4god/nodebb-plugin-rewards-extra",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:rewards.rewards", "method": "rewards.get"
+		},
+		{
+			"hook": "action:rewards.award:extra/award-reputation-jingyan-longzhu", "method": "rewards.awardReputationJingyanLongzhu"
+		},
+		{
+			"hook": "filter:rewards.conditionals", "method": "conditionals.get"
+		},
+		{
+			"hook": "filter:rewards.checkConditional:divisibleby", "method": "conditionals.divisibleby"
+		}
+	]
+}
